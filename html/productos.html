@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/admin.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+</head>
+<body>
+    <h1>Agregar Productos</h1>
+    <div class="contenedor-principal">
+        <div class="contenedor-formulario">
+            <form id="formularioProductos">
+                <label for="txtNumSerie">NUM. SERIE:</label><input type="text" id="txtNumSerie" name="txtNumSerie">
+                <label for="txtMarca">MARCA AUTOMOVIL:</label><input type="text" id="txtMarca" name="txtMarca">
+                <label for="txtModelo">MODELO Automovil:</label><input type="text" id="txtModelo" name="txtModelo">
+                <label for="txtDescripcion">Descripcion Automovil:</label><input type="text" id="txtDescripcion" name="txtDescripcion">
+                <label for="txtUrl">URL Imagen Automovil:</label><input type="text" id="txtUrl" name="txtUrl">
+                <p id="mensaje" style="text-align: center; color: white;"></p>
+                <button type="button" id="btnAgregar">Agregar</button>
+                <button type="button" id="btnBuscar">Buscar</button>
+                <button type="button" id="btnActualizar">Actualizar</button>
+                <button type="button" id="btnBorrar">Borrar</button>
+                <button type="reset" id="btnLimpiarFormulario">Limpiar formulario</button>
+            </form>
+        </div>
+    </div>
+    <center>
+        <div class="contenedor-tabla">
+            <table id="tablaProductos">
+                <thead>
+                    <tr>
+                        <th>Serie</th>
+                        <th>Marca</th>
+                        <th>Modelo</th>
+                        <th>Descripcion</th>
+                        <th>Imagen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </center>
+    <script type="module" src="/js/main.js"></script>
+</body>
+</html>
