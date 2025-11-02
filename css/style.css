@@ -1,0 +1,191 @@
+/* Selector universal */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* selector de tipos */
+
+body{
+    background-color: darkolivegreen;
+    color: white;
+}
+
+nav{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+li{
+    display: inline;
+    margin: 3em;
+    padding: 10px, 20px;
+}
+
+li a{
+    color: aqua;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    transition-duration: 10s;
+}
+
+li a:hover{
+    color: paleturquoise;
+    font-size: 9999999999px;
+    transition-duration: 400s;
+}
+
+hr{
+    border: none;
+    height: 4px;
+    background-color: black;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, alpha);
+    margin: 20px 0;
+}
+
+footer{
+    background-color: #7c4f35;
+    text-align: center;
+}
+
+/* selector ID */
+
+#contenedor {
+    width: auto;
+    height: auto;
+    min-height: 530px;
+    background-color: #7c4f35;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 6px 0px #2e2c2b;
+}
+
+#encabezado{
+    width: auto;
+    height: auto;
+    background-color: rgb(53, 112, 79);
+    margin: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px 0px #2e2c2b;
+}
+
+/* selector de clases */
+
+.imagen{
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+.menu{
+    height: auto;
+    width: 90%;
+    background-color: #82ad88;
+    margin: 1em;
+    border-radius:  4px;
+}
+
+
+.img{
+    display: block;
+    margin: 0px auto;
+    width: 500px;
+    height: 500px;
+    height: auto;
+}
+
+.modelo{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: transparent;
+    font-weight: bold;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.descripcion{
+    font-family: 'Spectral', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:400;
+    text-align: justify;
+    height: 33%;
+    padding: 20px;
+    font-style: normal;
+    background-color:antiquewhite;
+    color: black;
+}
+
+.boton{
+    border: none;
+    outline: 0;
+    width: 100%;
+    display: inline-block;
+    color: black;
+    padding: 8px;
+    background-color: paleturquoise;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton:hover{
+    background-color: aquamarine;
+    color: white;
+    transform: scale(1,1);
+}
+
+.tarjeta{
+    box-shadow: 0 4px 8px 0 rgb(44, 41, 37);
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    overflow-y: scroll;
+    border: 2px solid;
+    border-radius: 10px;
+    border: transparent;
+    margin-bottom: 35px;
+    background-color: white;
+}
+
+.subtitulo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.listas{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+
+.tarjetaAlt{
+    box-shadow: 0 4px 8px 0 rgb(44, 41, 37);
+    overflow: hidden;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    border: transparent;
+    margin-bottom: 35px;
+    background-color: white;
+}
