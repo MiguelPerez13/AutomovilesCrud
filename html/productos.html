@@ -15,7 +15,8 @@
                 <label for="txtMarca">MARCA AUTOMOVIL:</label><input type="text" id="txtMarca" name="txtMarca">
                 <label for="txtModelo">MODELO Automovil:</label><input type="text" id="txtModelo" name="txtModelo">
                 <label for="txtDescripcion">Descripcion Automovil:</label><input type="text" id="txtDescripcion" name="txtDescripcion">
-                <label for="txtUrl">URL Imagen Automovil:</label><input type="text" id="txtUrl" name="txtUrl">
+                <label for="txtUrl">URL Imagen Automovil:</label><input readonly type="text" id="txtUrl" name="txtUrl">
+                <input class="subirArchivo" type="file" id="imageInput"> <button id="uploadButton">Subir imagen</button>
                 <p id="mensaje" style="text-align: center; color: white;"></p>
                 <button type="button" id="btnAgregar">Agregar</button>
                 <button type="button" id="btnBuscar">Buscar</button>
@@ -24,24 +25,25 @@
                 <button type="reset" id="btnLimpiarFormulario">Limpiar formulario</button>
             </form>
         </div>
+        <center>
+            <div class="contenedor-tabla">
+                <table id="tablaProductos">
+                    <thead>
+                        <tr>
+                            <th>Serie</th>
+                            <th>Marca</th>
+                            <th>Modelo</th>
+                            <th>Descripcion</th>
+                            <th>Imagen</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </center>
     </div>
-    <center>
-        <div class="contenedor-tabla">
-            <table id="tablaProductos">
-                <thead>
-                    <tr>
-                        <th>Serie</th>
-                        <th>Marca</th>
-                        <th>Modelo</th>
-                        <th>Descripcion</th>
-                        <th>Imagen</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
-    </center>
-    <script type="module" src="/js/main.js"></script>
 </body>
+<script src="https://upload-widget.cloudinary.com/global/all.js" type="text/javascript"></script>
+<script type="module" src="/js/main.js"></script>
 </html>

@@ -108,12 +108,13 @@ body {
   .contenedor-formulario {
     flex: 1; 
     margin-top: 26px;
-    margin-right: 30px; 
+
   }
   
   .contenedor-tabla {
     flex: 1.5; 
-    margin-right: 30px;
+    margin-right: 50px;
+    width: 1000px;
   }
   
   button:hover, .subirArchivo:hover, .btn-volver:hover {

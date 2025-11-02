@@ -1,10 +1,6 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+import { getDatabase } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 
-// Your web app's Firebase configuration
-
-// Initialize Firebase
 const firebaseConfig = {
   apiKey: "AIzaSyByQrC_p0S5IKBmPSHHr1OPe4Hp0z1SJJo",
   authDomain: "proyectowebfinal-9a441.firebaseapp.com",
