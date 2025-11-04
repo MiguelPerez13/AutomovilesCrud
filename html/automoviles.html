@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Automóviles - Catálogo</title>
+    <link rel="stylesheet" href="../css/auto.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Index</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>Catálogo de Automóviles</h1>
+        <p>Explora los modelos disponibles</p>
+    </header>
+
+    <main class="contenedor">
+        <div class="filtros">
+            <input id="searchInput" type="search" placeholder="Buscar por marca, modelo o serie...">
+        </div>
+
+        <section id="catalog" aria-live="polite">
+            <!-- secciones por marca generadas por JavaScript -->
+        </section>
+
+        <div id="empty" class="no-result" style="display:none;">
+            No se encontraron automóviles.
+        </div>
+    </main>
+
+    <script src="../js/auto.js" type="module"></script>
+</body>
+</html>

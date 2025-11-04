@@ -7,12 +7,24 @@
     <title>Productos</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Index</a>
+            </li>
+        </ul>
+    </nav>
     <h1>Agregar Productos</h1>
     <div class="contenedor-principal">
         <div class="contenedor-formulario">
             <form id="formularioProductos">
                 <label for="txtNumSerie">NUM. SERIE:</label><input type="text" id="txtNumSerie" name="txtNumSerie">
-                <label for="txtMarca">MARCA AUTOMOVIL:</label><input type="text" id="txtMarca" name="txtMarca">
+                <label for="txtMarca">MARCA AUTOMOVIL:</label>
+                <select id="txtMarca" name="txtMarca">
+                    <option value="TOYOTA">TOYOTA</option>
+                    <option value="NISSAN">NISSAN</option>
+                    <option value="FORD">FORD</option>
+                </select>
                 <label for="txtModelo">MODELO Automovil:</label><input type="text" id="txtModelo" name="txtModelo">
                 <label for="txtDescripcion">Descripcion Automovil:</label><input type="text" id="txtDescripcion" name="txtDescripcion">
                 <label for="txtUrl">URL Imagen Automovil:</label><input readonly type="text" id="txtUrl" name="txtUrl">
