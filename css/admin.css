@@ -2,6 +2,27 @@ body {
     background-color: #dde2e4; /* Fondo blanco para una sensación de amplitud */
     font-family: "Arial Black", sans-serif;
   }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #b8c0e0; /* Azul pastel para la barra de navegación */
+  }
+
+  nav ul li a{
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: #ffffff; /* Texto blanco para contraste */
+    font-weight: bold;
+  }
+
+  nav ul li a:hover {
+    background-color: #9a8cb8; /* Morado pastel al pasar el ratón */
+  }
   
   h1 {
     color: #9a8cb8; /* Morado pastel para los títulos */
